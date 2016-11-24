@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="home2">
+  {{ content }}
+
+  {% assign sortedpages = site.pages | sort: 'order' %}
+  {% for page in sortedpages %}
+    {% if page.order %}
+    <div id="{{page.section}}" class="section {{ page.style }}">
+      <div class="container">
+        {{ page.content }}
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
