@@ -1,0 +1,23 @@
+---
+layout: page
+title: Partners
+section: partners
+order: 4
+style: page-work
+---
+
+<h2>Onze partners</h2>
+
+<div class="projects-container">
+  {% assign sortedpartners = site.posts | sort: 'order' %}
+  {% for partner in sortedpartners %}
+    <a class="partner {{partner.style}} partner-link" href="{{partner.link}}" target="_blank">
+      <img class="partner-image" src="{{ partner.image}}" />
+      <div class="partner-description">
+        <h3>{{partner.title}}</h3>
+        {{partner.content}}
+      </div>
+    </a>
+  {% endfor %}
+  
+</div>
