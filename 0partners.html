@@ -8,11 +8,12 @@ style: page-work
 
 <h2>Onze partners</h2>
 
-<div class="projects-container">
+<div class="partner-container">
   {% assign sortedpartners = site.posts | sort: 'order' %}
   {% for partner in sortedpartners %}
     <a class="partner {{partner.style}} partner-link" href="{{partner.link}}" target="_blank">
-      <img class="partner-image" src="{{ partner.image}}" />
+      <div class="partner-image-box" style="background-image: url({{ partner.image}})">
+      </div>
       <div class="partner-description">
         <h3>{{partner.title}}</h3>
         {{partner.content}}
