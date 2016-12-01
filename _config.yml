@@ -20,6 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   De Open Education Working Group heeft als doel de informatisering van het onderwijs te bevorderen en open data te promoten.
 baseurl: "/open-education/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: openknowledgebe/open-education
 
 # Build settings
 markdown: kramdown
