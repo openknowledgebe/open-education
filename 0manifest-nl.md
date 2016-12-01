@@ -4,6 +4,7 @@ title: Manifest
 section: manifest
 order: 3
 style: page-doel
+lang: nl
 ---
 
 

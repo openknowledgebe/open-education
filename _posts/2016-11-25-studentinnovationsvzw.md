@@ -6,4 +6,7 @@ categories: partner
 image: "https://studentinnovations.org/img/logo.png"
 link: "https://studentinnovations.org/"
 order: 2
+c:
+    nl: "Uitleg in het nederlands"
+    en: "English content"
 ---
