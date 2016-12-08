@@ -4,6 +4,7 @@ title: Manifest
 section: manifest
 order: 3
 style: page-doel
+lang: nl
 ---
 
 
@@ -28,14 +29,14 @@ kan hebben op het leven van de student of  op het onderwijs.
 
 4. Persoonlijke updates
 	- rss-feedachtig
-    - Studenten zijn direct op de hoogte van wijziginen aan het uurrooster of nieuwe opdrachten.
+    - Studenten zijn direct op de hoogte van wijzigingen aan het uurrooster of nieuwe opdrachten.
 
 5. Data over bibliotheken
 	- Openingsuren en locatie
 	- Bezettingsgraad
 	- Studenten komen niet voor gesloten duren of overvolle bibliotheken te staan.
 
-6. Data over studenten restaurants
+6. Data over studentenrestaurants
 	- Openingsuren en locatie
 	- Menu
 	- Eerstejaars studenten weten de weg naar de studentenrestaurants te vinden.
