@@ -7,3 +7,5 @@ image: "https://studentinnovations.org/img/logo.png"
 link: "https://studentinnovations.org/"
 order: 2
 ---
+
+Student Innovations vzw is een initiatief van studenten om het studentenleven efficiënter te maken. Voornamelijk door het maken van digitale toepassingen. De vzw bestaat volledig uit studenten uit allerlei studierichtingen en onderwijsinstellingen. Op deze manier willen we de informatisering van het onderwijs bevorderen en open data promoten.
