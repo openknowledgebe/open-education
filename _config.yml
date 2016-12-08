@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Open Education Working Group
-email: example@example.com
-phone: +33 33333333
+email: bestuur@studentinnovations.org
+phone: +32 495317301
 description: > # this means to ignore newlines until "baseurl:"
   De Open Education Working Group heeft als doel de informatisering van het onderwijs te bevorderen en open data te promoten.
 baseurl: "/open-education/" # the subpath of your site, e.g. /blog
