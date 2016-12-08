@@ -9,13 +9,13 @@ lang: en
 
 
 ## Manifest
-This manifest contains the data of which we believe that opening up can
-have an impact on student life or on the education.
+This manifest contains the data of which we believe opening it up could
+have a positive impact on student life or on the education.
 
 {: .manifest}
 1. List of courses and enrolled disciplines of the person
-    - Can be handy for the student associations to know which books the person might need.
-    
+    - Could be handy for the student associations to know which books the person might need.
+
 2. Curriculum
     - Amount of students per discipline
     - Division into diversity groups
@@ -35,7 +35,7 @@ have an impact on student life or on the education.
     - Opening hours and location
     - Occupancy
     - Students will not be delayed by closed or overly crowded libraries
-    
+
 6. Studentrestaurant data
     - Opening hours and location
     - Menu
@@ -44,7 +44,7 @@ have an impact on student life or on the education.
 7. Reserving rooms and resources (eg. IPads and video cameras)
     - Availability
     - API to reserve
-   
+
 8. Point distribution of the courses
     - Anonymous
     - (In correlation with other subjects that have been taken by the students that have taken this course)
