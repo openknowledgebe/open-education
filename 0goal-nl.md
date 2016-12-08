@@ -4,6 +4,8 @@ title: Ons doel
 section: about
 order: 2
 style: page-doel
+lang: nl
+ref: goal
 ---
 
 ## Ons doel

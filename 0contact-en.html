@@ -1,0 +1,35 @@
+---
+lang: en
+layout: page
+title: Contact
+section: contact
+order: 5
+style: page-contact
+---
+
+<h2>{{site.t[page.lang].contact_us}}</h2>
+
+<div class="contact-form">
+  <form action="https://formspree.io/{{site.email}}" method="POST">
+    <div class="contact-top">
+      <div>
+        <div>{{site.t[page.lang].name}}</div>
+        <input type="text" required name="name" />
+      </div>
+      <div>
+        <div>{{site.t[page.lang].email}}</div>
+        <input type="email" required name="email" />
+      </div>
+    </div>
+    <div class="contact-bottom">
+      <div>{{site.t[page.lang].message}}</div>
+      <textarea name="message" required rows=10></textarea>
+    </div>
+    <div class="contact-submit">
+      <input id="submit" type="submit" value="{{site.t[page.lang].send_message}}" />
+    </div>
+    <input type="hidden" name="_next" value="{{ '/sent' | relative_url }}" />
+    <input type="hidden" name="_subject" value="Een nieuw bericht van {{site.url}}" />
+    <input type="text" name="_gotcha" style="display:none" />
+  </form>
+</div>

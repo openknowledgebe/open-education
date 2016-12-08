@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Open Education Working Group
-email: example@example.com
-phone: +33 33333333
+email: bestuur@studentinnovations.org
+phone: +32 495317301
 description: > # this means to ignore newlines until "baseurl:"
   De Open Education Working Group heeft als doel de informatisering van het onderwijs te bevorderen en open data te promoten.
 baseurl: "/open-education/" # the subpath of your site, e.g. /blog
@@ -30,3 +30,29 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Translations
+#lang: nl
+t:
+  nl:
+    contact_us: "Contacteer Ons"
+    name: "Naam"
+    email: "E-mail"
+    message: "Bericht"
+    send_message: "Verstuur Bericht"
+    phone: "Telefoon"
+    our_partners: "Onze partners"
+    message_sent: "Bericht verzonden"
+    message_sent_message: "Uw bericht werd verzonden. Wij antwoorden hierop zo snel als we kunnen."
+    slogan: "Open data, open geesten"
+  en:
+    contact_us:  "Contact Us"
+    name: "Name"
+    email: "E-mail"
+    message: "Message"
+    send_message: "Send Message"
+    phone: "Phone"
+    our_partners: "Our partners"
+    message_sent: "Message sent"
+    message_sent_message: "Your message has been sent. We will reply as soon as possible."
+    slogan: "Open data, open minds"
