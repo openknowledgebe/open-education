@@ -9,4 +9,6 @@ ref: goal
 ---
 
 ## Our goal
-The main goal of this working group of Open Knowledge Belgium is ...
+The main goal of this working group within Open Knowledge Belgium is to incite Belgian Universities and Colleges to open up more data.
+With this information, students and other interested parties can start working to make student life easier. This will also increase
+the student participation.

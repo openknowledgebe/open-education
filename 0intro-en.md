@@ -7,4 +7,4 @@ style: page-intro
 lang: en
 ---
 
-Our goal is to improve the informatization of the education.
+Our goal is to improve the informatization of the education and to promote open data.
