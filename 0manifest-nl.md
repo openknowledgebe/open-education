@@ -9,17 +9,17 @@ lang: nl
 
 
 ## Manifest
-Dit manifest bevat de belangrijkste data waarvan wij geloven dat het openstellen ervan een impact 
-kan hebben op het leven van de student of  op het onderwijs.
+Dit manifest bevat de belangrijkste data waarvan wij geloven dat het openstellen ervan een positieve impact
+kan hebben op het leven van de student of op het onderwijs.
 
 {: .manifest}
 1. Lijst van vakken en ingeschreven studierichtingen van de gebruiker.
-	- Handig voor cursusdienst kringen om te weten welke boeken een student nodig heeft.
+	- Handig voor kringen met een cursusdienst om te weten welke boeken een student nodig heeft.
 
 2. Onderwijsaanbod
     - Studentenaantallen per richtingen
     - Verdeling in diversiteitsgroepen
-    - Docenten, studiepunten en studiefase 
+    - Docenten, studiepunten en studiefase
     - Handig om een overzicht te krijgen van alle studierichtingen binnen de instelling.
 
 3. Uurrooster
