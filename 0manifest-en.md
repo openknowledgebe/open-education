@@ -9,23 +9,23 @@ lang: en
 
 
 ## Manifest
-This manifest contains the data of which we believe that opening up can
-have an impact on student life or on the education.
+This manifest contains the data of which we believe opening it up could
+have a positive impact on student life or on the education.
 
 {: .manifest}
 1. List of courses and enrolled disciplines of the person
-    - Can be handy for the student associations to know which books the person might need.
-    
+    - Could be handy for the student associations to know which books the person might need
+
 2. Curriculum
     - Amount of students per discipline
     - Division into diversity groups
     - Teachers, study-credits and study phases
-    - Convenient to get an overview of all disciplines within the institution.
+    - Convenient to get an overview of all disciplines within the institution
 
 3. Schedule
     - Always up to date
-    - Preferably personally so that everyone can enjoy it's benefits.
-    - Students can schedule better
+    - Preferably personal so everyone can enjoy it's benefits.
+    - Students can schedule better.
 
 4. Personal Updates
     - RSS feed-like
@@ -34,17 +34,17 @@ have an impact on student life or on the education.
 5. Library data
     - Opening hours and location
     - Occupancy
-    - Students will not be delayed by closed or overly crowded libraries
-    
-6. Studentrestaurant data
+    - Students will not be delayed by closed or overly crowded libraries.
+
+6. Student restaurant data
     - Opening hours and location
     - Menu
     - Freshmen can find their way to the student restaurants.
 
-7. Reserving rooms and resources (eg. IPads and video cameras)
+7. Reserving rooms and resources (e.g. iPads and video cameras)
     - Availability
-    - API to reserve
-   
+    - API to make reservations
+
 8. Point distribution of the courses
     - Anonymous
     - (In correlation with other subjects that have been taken by the students that have taken this course)
@@ -54,5 +54,5 @@ have an impact on student life or on the education.
 	- API
 	- Students can easily look up information about their teachers.
 
-10. Data about things that are offered by the university
+10. Data about other (campus) facilities that are offered by the university or college
     - Shops etc.
