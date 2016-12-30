@@ -2,7 +2,7 @@
 layout: page
 title: Manifest
 section: manifest
-order: 3
+order: 40
 style: page-doel
 lang: en
 ---

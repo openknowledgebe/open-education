@@ -2,7 +2,7 @@
 layout: page
 title: Our goal
 section: about
-order: 2
+order: 20
 style: page-doel
 lang: en
 ref: goal
