@@ -2,7 +2,7 @@
 layout: page
 title: Over ons
 section: home
-order: 1
+order: 10
 style: page-intro
 lang: nl
 ---
