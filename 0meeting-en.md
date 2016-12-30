@@ -17,7 +17,9 @@ If you're interested, register at [our eventbrite](https://www.eventbrite.nl/e/o
 ### Why open data?
 The current generation of students was raised with the internet. Their smartphone is always within reach. They want to be able to see and do everything on this small device. It's impossible for educational institutions to provide and maintain all tools that are useful for students. But the data that is necessary to build them is property of the institution and often not publicly accessible. Therefore, entrepreneurial students or staff members cannot just build it themselves.
 
-That's why we believe we need "open data". Open data is data that is freely accessible and can be used by everyone. It can stimulate innovative applications in the educational sector. It also offers the opportunity for enterpreneurial students and/or staff members to help build towards a better college or university.
+That's why we believe we need "open data". Open data is data that is freely accessible and can be used by everyone.
+For data that isn't publicly available, like personal information, data can be shared after explicit individual consent (data is not locked in).
+Open data can stimulate innovative applications in education. It also offers the opportunity for enterpreneurial students and/or staff members to help build towards a better college or university.
 
 We hope to see you the 15th of February. If you have questions about this initiative or if you can't make it, but you want to be kept informed, just let us know!
 
