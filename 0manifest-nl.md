@@ -5,6 +5,7 @@ section: manifest
 order: 40
 style: page-doel
 lang: nl
+home: true
 ---
 
 

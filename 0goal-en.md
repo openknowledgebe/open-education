@@ -5,6 +5,7 @@ section: about
 order: 20
 style: page-doel
 lang: en
+home: true
 ref: goal
 ---
 

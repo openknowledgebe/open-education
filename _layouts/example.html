@@ -1,5 +1,5 @@
 ---
-lang: nl
+lang: en
 layout: default
 ---
 
@@ -9,12 +9,14 @@ layout: default
   {% assign sortedpages = site.pages | sort: 'order' %}
   {% for page in sortedpages %}
     {% if page.order %}
-        {% if page.lang == layout.lang or page.lang_independent == true and page.home == true %}
+        {% if page.lang == layout.lang or page.lang_independent == true %}
+          {% if page.example == true %}
         <div id="{{page.section}}" class="section {{ page.style }}">
           <div class="container">
             {{ page.content }}
           </div>
         </div>
+          {% endif %}
         {% endif %}
     {% endif %}
   {% endfor %}

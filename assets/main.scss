@@ -355,3 +355,28 @@ footer {
   margin-bottom: 10px;
 }
 
+.doc-table{
+  width: 100%;
+}
+
+.doc-table th, td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.doc-table td{
+  color: #111;
+}
+
+.doc-table th{
+  color: #822;
+}
+
+.doc-table th:nth-of-type(1) {
+  width:10%;
+}
+
+.doc-table th:nth-of-type(2) {
+  width:20%;
+}

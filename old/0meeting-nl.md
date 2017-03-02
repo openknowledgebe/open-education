@@ -5,6 +5,7 @@ section: meeting
 order: 30
 style: page-doel
 lang: nl
+home: false
 ---
 
 ## Een eerste meeting
