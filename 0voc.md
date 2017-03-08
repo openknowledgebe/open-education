@@ -166,7 +166,7 @@ Example:
 <div class="table-wrapper" markdown="1">
 ```javascript
 {
-    "@context": "http://jesseh.be/edu/",
+    "@context": "https://w3id.org/university/v1",
     "id": "student1",
     "type": "Student",
     "givenName": "Jesse",

@@ -14,7 +14,7 @@ example: true
 <div class="table-wrapper" markdown="1">
 ```javascript
 {
-   "@context": "http://jesseh.be/edu/",
+   "@context": "https://w3id.org/university/v1",
    "id": "sub1",
    "type": "Subject",
    "name": "Bachelor in Mathematics: fase 1",
@@ -27,7 +27,7 @@ example: true
 <div class="table-wrapper" markdown="1">
 ```javascript
 {
-    "@context": "http://jesseh.be/edu/",
+    "@context": "https://w3id.org/university/v1",
     "id": "course1",
     "type": "Course",
     "name": "Mathem",
@@ -54,7 +54,7 @@ example: true
 <div class="table-wrapper" markdown="1">
 ```javascript
 {
-    "@context": "http://jesseh.be/edu/",
+    "@context": "https://w3id.org/university/v1",
     "id": "https://example.org/Group/1",
     "type": "Group",
     "name": "te",
@@ -70,7 +70,7 @@ example: true
 <div class="table-wrapper" markdown="1">
 ```javascript
 {
-    "@context": "http://jesseh.be/edu/",
+    "@context": "https://w3id.org/university/v1",
     "id": "teach1",
     "type": "Teacher",
     "givenName": "Teach",
