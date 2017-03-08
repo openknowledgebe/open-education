@@ -74,6 +74,7 @@ example: true
     "id": "teach1",
     "type": "Teacher",
     "givenName": "Teach",
+    "middleName": "",
     "familyName": "er",
     "gender": "Female",
     "honorificPrefix": "Dr",

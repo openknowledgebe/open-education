@@ -12,6 +12,7 @@
     "CourseEvent": "education:CourseEvent",
     "DiversityGroup": "education:DiversityGroup",
     "givenName": { "@id": "schema:givenName", "@type": "@id" },
+    "middleName": { "@id": "schema:additionalName", "@type": "@id"},
     "familyName": { "@id": "schema:familyName", "@type": "@id" },
     "gender": { "@id": "schema:GenderType", "@type": "@id" },
     "subjects": {

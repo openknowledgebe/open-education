@@ -66,6 +66,7 @@ Teachers are representations of a teacher. Teachers have a set of mandatory and 
 | **id** | IRI | Unique IRI for the Teacher.
 | **type** | JSON-LD type | Teacher
 | <a id="givenName"></a>**givenName** | [givenName](http://schema.org/givenName) | The givenName aka firstName of the teacher.
+| <a id="middleName"></a>middleName |[additionalName](http://schema.org/additionalName) | The middleName of the teacher
 | <a id="familyName"></a>**familyName** |[familyName](http://schema.org/familyName) | The familyname of the teacher.
 | <a id="gender"></a>gender |[GenderType](http://schema.org/GenderType) | The gender of the teacher. (Male or Female)
 | <a id="honorificPrefix"></a>honorificPrefix | [honorificPrefix](http://schema.org/honorificPrefix) | An honorific prefix preceding a Person's name such as Dr/Mrs/Mr.
@@ -152,6 +153,7 @@ Response:
 | **id** | IRI | Unique IRI for the Student.
 | **type** | JSON-LD type | valid JSON-LD representation of the Student type. In most cases, this will simply be the string `Student`. An array including `Student` and other string elements that are either URLs or compact IRIs within the current context are allowed.
 | <a id="givenName"></a>**givenName** | [givenName](http://schema.org/givenName) | The givenName aka firstName of the student.
+| <a id="middleName"></a>middleName |[additionalName](http://schema.org/additionalName) | The middleName of the student
 | <a id="familyName"></a>**familyName** |[familyName](http://schema.org/familyName) | The familyname of the student.
 | <a id="gender"></a>gender |[GenderType](http://schema.org/GenderType) | The gender of the student. (Male or Female)
 | <a id="subjects"></a>**subjects** | Array of [Subject](#Subject)s | The subjects the student is taking this year.
@@ -168,6 +170,7 @@ Example:
     "id": "student1",
     "type": "Student",
     "givenName": "Jesse",
+    "middleName": "",
     "familyName": "Hoobergs",
     "gender": "Male",
     "subjects": [
