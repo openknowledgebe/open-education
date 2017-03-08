@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "education": "https://openknowledgebe.github.io/open-education/voc/#",
+    "schema": "http://schema.org/",
+    "Course": "education:Course",
+    "Student": "education:Student",
+    "Group": "education:Group",
+    "Subject": "education:Subject",
+    "Teacher": "education:Teacher",
+    "CourseEvent": "education:CourseEvent",
+    "DiversityGroup": "education:DiversityGroup",
+    "givenName": { "@id": "schema:givenName", "@type": "@id" },
+    "familyName": { "@id": "schema:familyName", "@type": "@id" },
+    "gender": { "@id": "schema:GenderType", "@type": "@id" },
+    "subjects": {
+      "@id": "Subject",
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "courses": {
+      "@id": "Course",
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "groups": {
+      "@id": "Group",
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "name": { "@id": "schema:name", "@type": "@id" },
+    "teachers": {
+      "@id": "Teacher",
+      "@type": "@id",
+      "@container": "@list"
+    },
+    "credits": { "@id": "education:credits", "@type": "@id" },
+    "description": { "@id": "schema:decription", "@type": "@id" },
+    "honorificPrefix": { "@id": "schema:honorificPrefix", "@type": "@id" },
+    "honorificSuffix": { "@id": "schema:honorificSuffix", "@type": "@id" },
+    "title": { "@id": "schema:title", "@type": "@id" },
+    "startDate": { "@id": "schema:Date", "@type": "@id" },
+    "endDate": { "@id": "schema:Date", "@type": "@id" },
+    "course": { "@id": "Course", "@type": "@id" },
+    "required": { "@id": "schema:Boolean", "@type": "@id" },
+    "diversityGroup": "DiversityGroup",
+    "amount": { "@id": "schema:Integer", "@type": "@id" }
+  }
+}

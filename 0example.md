@@ -10,25 +10,43 @@ voc: false
 example: true
 ---
 
-### Student <a id="Student"></a> ([doc](../#Student))
-
-<div class="table-wrapper" markdown="1">
-```javascript
-not added
-```
-</div>
-
 ### Subject <a id="Subject"></a> ([doc](../#Subject))
 <div class="table-wrapper" markdown="1">
 ```javascript
-not added
+{
+   "@context": "http://jesseh.be/edu/",
+   "id": "sub1",
+   "type": "Subject",
+   "name": "Bachelor in Mathematics: fase 1",
+   "credits": 60
+}
 ```
 </div>
 
 ### Course <a id="Course"></a> ([doc](../#Course))
 <div class="table-wrapper" markdown="1">
 ```javascript
-not added
+{
+    "@context": "http://jesseh.be/edu/",
+    "id": "course1",
+    "type": "Course",
+    "name": "Mathem",
+    "teachers": [
+        {
+            "id": "teach1",
+            "type": "Teacher",
+            "givenName": "Teach",
+            "familyName": "er"
+        }
+    ],
+    "groups": [
+    {
+        "id": "group1",
+        "type": "Group",
+        "name": "cws"
+    }
+    ]
+}
 ```
 </div>
 
@@ -36,12 +54,12 @@ not added
 <div class="table-wrapper" markdown="1">
 ```javascript
 {
-  "@context": {
-    "edu": "http://jesseh.be/edu"
-  },
-  "edu:id": "https://example.org/revocationList.json",
-  "edu:type": "Group",
-  "edu:name": "te"
+    "@context": "http://jesseh.be/edu/",
+    "id": "https://example.org/Group/1",
+    "type": "Group",
+    "name": "te",
+    "description": "This is a sample group",
+    "amount": 5
 }
 ```
 </div>
@@ -51,7 +69,16 @@ not added
 ### Teacher <a id="Teacher"></a> ([doc](../#Teacher))
 <div class="table-wrapper" markdown="1">
 ```javascript
-not added
+{
+    "@context": "http://jesseh.be/edu/",
+    "id": "teach1",
+    "type": "Teacher",
+    "givenName": "Teach",
+    "familyName": "er",
+    "gender": "Female",
+    "honorificPrefix": "Dr",
+    "honorificSuffix": "PhD"
+}
 ```
 </div>
 
@@ -68,3 +95,5 @@ not added
 not added
 ```
 </div>
+
+

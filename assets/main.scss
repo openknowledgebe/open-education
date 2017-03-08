@@ -164,12 +164,28 @@ h2 {
 h3 {
   font-size: 24px;
 }
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 18px;
+}
 
 .section h2 {
   text-align: center;
   color: #4A4A4A;
 }
 .section h3 {
+  color: #4A4A4A;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+.section h4 {
+  color: #822;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+.section h5 {
   color: #4A4A4A;
   margin-bottom: 0px;
   margin-top: 25px;
