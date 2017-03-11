@@ -14,7 +14,7 @@
     "givenName": { "@id": "schema:givenName" },
     "middleName": { "@id": "schema:additionalName" },
     "familyName": { "@id": "schema:familyName" },
-    "gender": { "@id": "schema:GenderType", "@type": "@id" },
+    "gender": { "@id": "schema:gender", "@type": "@id" },
     "subjects": {
       "@id": "Subject",
       "@type": "@id",
@@ -43,9 +43,9 @@
     "title": { "@id": "schema:title" },
     "startDate": { "@id": "schema:startDate" },
     "endDate": { "@id": "schema:endDate" },
-    "course": { "@id": "Course", "@type": "@id" },
-    "required": { "@id": "schema:Boolean" },
+    "course": { "@id": "education:course", "@type": "@id" },
+    "required": { "@id": "education:required" },
     "diversityGroup": "DiversityGroup",
-    "amount": { "@id": "schema:Integer" }
+    "amount": { "@id": "education:amount" }
   }
 }
