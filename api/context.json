@@ -1,7 +1,5 @@
 {
   "@context": {
-    "id": "@id",
-    "type": "@type",
     "education": "https://openknowledgebe.github.io/open-education/voc/#",
     "schema": "http://schema.org/",
     "Course": "education:Course",
