@@ -19,7 +19,7 @@ It is possible that a mandatory property is not part of the minimal-form.
 Even an optional field can be part of the minimal-form.
 
 #### Subject <a id="Subject"></a> ([example](./examples/#Subject))
-Subjects are representations of a subject. Subjects have a set of mandatory and optional properties. Fields marked **in bold letters** are mandatory.
+Subjects are representations of a subject.
 
 <div class="table-wrapper" markdown="1">
 {:.doc-table4}
@@ -33,7 +33,7 @@ Subjects are representations of a subject. Subjects have a set of mandatory and 
 </div>
 
 #### Course <a id="Course"></a> ([example](./examples/#Course))
-Courses are representations of a course. Courses have a set of mandatory properties. Fields marked **in bold letters** are mandatory.
+Courses are representations of a course.
 
 <div class="table-wrapper" markdown="1">
 {:.doc-table4}
@@ -49,7 +49,7 @@ Courses are representations of a course. Courses have a set of mandatory propert
 </div>
 
 #### Group <a id="Group"></a> ([example](./examples/#Group))
-Groups are used to divide students into groups like for example at exercise sessions. Groups have a set of mandatory properties and optional fields. Fields marked **in bold letters** are mandatory.
+Groups are used to divide students into groups like for example at exercise sessions.
 
 <div class="table-wrapper" markdown="1">
 {:.doc-table4}
@@ -65,7 +65,7 @@ Groups are used to divide students into groups like for example at exercise sess
 
 
 #### Teacher <a id="Teacher"></a> ([example](./examples/#Teacher))
-Teachers are representations of a teacher. Teachers have a set of mandatory and optional properties. Fields marked **in bold letters** are mandatory.
+Teachers are representations of a teacher.
 
 <div class="table-wrapper" markdown="1">
 {:.doc-table4}
@@ -83,7 +83,7 @@ Teachers are representations of a teacher. Teachers have a set of mandatory and 
 </div>
 
 #### CourseEvent <a id="CourseEvent"></a> ([example](./examples/#CourseEvent))
-CourseEvents are representations of a class session of a course. CourseEvents have a set of mandatory properties. Fields marked **in bold letters** are mandatory.
+CourseEvents are representations of a class session of a course.
 
 <div class="table-wrapper" markdown="1">
 {:.doc-table4}
@@ -103,7 +103,7 @@ CourseEvents are representations of a class session of a course. CourseEvents ha
 
 
 #### DiversityGroup <a id="DiversityGroup"></a> ([example](./examples/#DiversityGroup))
-DiversityGroups are representations of a community groups a student can be part of, like for example male/female. DiversityGroups have a set of mandatory properties. Fields marked **in bold letters** are mandatory.
+DiversityGroups are representations of a community groups a student can be part of, like for example male/female.
 
 <div class="table-wrapper" markdown="1">
 {:.doc-table4}
@@ -253,9 +253,9 @@ Request Header:
 
 </div>
 
+Request Params:
 <div class="table-wrapper" markdown="1">
 {:.doc-table}
-Request Params:
 | Key | Description
 | ----------- | -----------------
 | **startDate** | All returned events will have a startDate equal to or after this data

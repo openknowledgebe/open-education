@@ -9,6 +9,15 @@ home: false
 voc: false
 example: true
 ---
+### Models
+
+All models are described below. The mandatory properties of a model are marked **in bold letters**.
+
+Every model also has a minimal-form, which is a stripped down version of the full-form.
+
+It is possible that a mandatory property is not part of the minimal-form.
+
+Even an optional field can be part of the minimal-form.
 
 ### Subject <a id="Subject"></a> ([doc](../#Subject))
 <div class="table-wrapper" markdown="1">
