@@ -15,7 +15,7 @@ example: true
 ```javascript
 {
    "@context": "https://w3id.org/university/v1",
-   "id": "sub1",
+   "id": "example.com/subject/1",
    "type": "Subject",
    "name": "Bachelor in Mathematics: fase 1",
    "credits": 60
@@ -28,23 +28,24 @@ example: true
 ```javascript
 {
     "@context": "https://w3id.org/university/v1",
-    "id": "course1",
+    "id": "example.com/course/1",
     "type": "Course",
-    "name": "Mathem",
+    "name": "Algebra",
     "teachers": [
         {
-            "id": "teach1",
+            "id": "example.com/teacher/1",
             "type": "Teacher",
             "givenName": "Teach",
+            "middleName": "middle",
             "familyName": "er"
         }
     ],
     "groups": [
-    {
-        "id": "group1",
-        "type": "Group",
-        "name": "cws"
-    }
+        {
+            "id": "example.com/group/1",
+            "type": "Group",
+            "name": "cws"
+        }
     ]
 }
 ```
@@ -55,7 +56,7 @@ example: true
 ```javascript
 {
     "@context": "https://w3id.org/university/v1",
-    "id": "https://example.org/Group/1",
+    "id": "example.com/group/1",
     "type": "Group",
     "name": "te",
     "description": "This is a sample group",
@@ -71,7 +72,7 @@ example: true
 ```javascript
 {
     "@context": "https://w3id.org/university/v1",
-    "id": "teach1",
+    "id": "example.com/teacher/1",
     "type": "Teacher",
     "givenName": "Teach",
     "middleName": "",
@@ -86,7 +87,36 @@ example: true
 ### CourseEvent <a id="CourseEvent"></a> ([doc](../#CourseEvent))
 <div class="table-wrapper" markdown="1">
 ```javascript
-not added
+{
+    "@context": "https://w3id.org/university/v1",
+    "id": "example.com/event/1",
+    "type": "CourseEvent",
+    "title": "",
+    "startDate": "2017-03-11T10:05:00+00:00",
+    "endDate": "2017-03-11T12:05:00+00:00",
+    "teachers": [
+        {
+            "id": "example.com/teacher/1",
+            "type": "Teacher",
+            "givenName": "Teach",
+            "middleName": "",
+            "familyName": "er"
+        }
+    ],
+    "groups": [
+        {
+            "id": "https://example.org/Group/1",
+            "type": "Group",
+            "name": "te"
+        }
+    ],
+    "course": {
+        "id": "example.com/course/10",
+        "type": "Course",
+        "name": ""
+    },
+    "required": false
+}
 ```
 </div>
 
