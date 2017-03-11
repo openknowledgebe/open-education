@@ -1,49 +1,37 @@
 {
   "@context": {
+    "@vocab":    "https://openknowledgebe.github.io/open-education/voc/#",
     "education": "https://openknowledgebe.github.io/open-education/voc/#",
-    "schema": "http://schema.org/",
-    "Course": "education:Course",
-    "Student": "education:Student",
-    "Group": "education:Group",
-    "Subject": "education:Subject",
-    "Teacher": "education:Teacher",
-    "CourseEvent": "education:CourseEvent",
-    "DiversityGroup": "education:DiversityGroup",
-    "givenName": "schema:givenName",
-    "middleName": "schema:additionalName",
-    "familyName": "schema:familyName",
-    "gender": { "@id": "schema:gender", "@type": "@id" },
-    "subjects": {
-      "@id": "Subject",
-      "@type": "@id",
-      "@container": "@list"
-    },
-    "courses": {
-      "@id": "Course",
-      "@type": "@id",
-      "@container": "@list"
-    },
-    "groups": {
-      "@id": "Group",
-      "@type": "@id",
-      "@container": "@list"
-    },
-    "name": "schema:name",
-    "teachers": {
-      "@id": "Teacher",
-      "@type": "@id",
-      "@container": "@list"
-    },
-    "credits": "education:credits",
-    "description": "schema:description",
+
+    "schema":          "http://schema.org/",
+    "Course":          "education:Course",
+    "Student":         "education:Student",
+    "Group":           "education:Group",
+    "Subject":         "education:Subject",
+    "Teacher":         "education:Teacher",
+    "CourseEvent":     "education:CourseEvent",
+    "DiversityGroup":  "education:DiversityGroup",
+    "diversityGroup":  "education:diversityGroup",
+    "credits":         "education:credits",
+    "required":        "education:required",
+    "amount":          "education:amount"
+    "course": { "@id": "education:course", "@type": "@id" },
+
+    "subjects": { "@id": "Subject", "@type": "@id", "@container": "@list" },
+    "courses":  { "@id": "Course",  "@type": "@id", "@container": "@list" },
+    "groups":   { "@id": "Group",   "@type": "@id", "@container": "@list" },
+    "teachers": { "@id": "Teacher", "@type": "@id", "@container": "@list" },
+
+    "name":            "schema:name",
+    "givenName":       "schema:givenName",
+    "middleName":      "schema:additionalName",
+    "familyName":      "schema:familyName",
     "honorificPrefix": "schema:honorificPrefix",
     "honorificSuffix": "schema:honorificSuffix",
-    "title": "schema:title",
-    "startDate": "schema:startDate",
-    "endDate": "schema:endDate",
-    "course": { "@id": "education:course", "@type": "@id" },
-    "required": "education:required",
-    "diversityGroup": "DiversityGroup",
-    "amount": "education:amount"
+    "title":           "schema:title",
+    "gender": { "@id": "schema:gender", "@type": "@id" },
+    "startDate":       "schema:startDate",
+    "endDate":         "schema:endDate",
+    "description":     "schema:description"
   }
 }
