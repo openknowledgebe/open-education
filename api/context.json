@@ -11,9 +11,9 @@
     "Teacher": "education:Teacher",
     "CourseEvent": "education:CourseEvent",
     "DiversityGroup": "education:DiversityGroup",
-    "givenName": { "@id": "schema:givenName" },
-    "middleName": { "@id": "schema:additionalName" },
-    "familyName": { "@id": "schema:familyName" },
+    "givenName": "schema:givenName",
+    "middleName": "schema:additionalName",
+    "familyName": "schema:familyName",
     "gender": { "@id": "schema:gender", "@type": "@id" },
     "subjects": {
       "@id": "Subject",
@@ -30,22 +30,22 @@
       "@type": "@id",
       "@container": "@list"
     },
-    "name": { "@id": "schema:name" },
+    "name": "schema:name",
     "teachers": {
       "@id": "Teacher",
       "@type": "@id",
       "@container": "@list"
     },
-    "credits": { "@id": "education:credits" },
-    "description": { "@id": "schema:decription" },
-    "honorificPrefix": { "@id": "schema:honorificPrefix" },
-    "honorificSuffix": { "@id": "schema:honorificSuffix" },
-    "title": { "@id": "schema:title" },
-    "startDate": { "@id": "schema:startDate" },
-    "endDate": { "@id": "schema:endDate" },
+    "credits": "education:credits",
+    "description": "schema:description",
+    "honorificPrefix": "schema:honorificPrefix",
+    "honorificSuffix": "schema:honorificSuffix",
+    "title": "schema:title",
+    "startDate": "schema:startDate",
+    "endDate": "schema:endDate",
     "course": { "@id": "education:course", "@type": "@id" },
-    "required": { "@id": "education:required" },
+    "required": "education:required",
     "diversityGroup": "DiversityGroup",
-    "amount": { "@id": "education:amount" }
+    "amount": "education:amount"
   }
 }
