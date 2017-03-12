@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Invitation
 section: meeting
 order: 30
 style: page-doel

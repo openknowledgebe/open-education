@@ -18,12 +18,13 @@
         {% for my_page in sortedpages %}
           {% if my_page.title %}
             {% if my_page.lang == layout.lang or my_page.lang_independent == true %}
-              {% if my_page.example != true and my_page.voc != true %}
+              {% if my_page.example != true and my_page.api != true %}
             <a class="page-link" href="{{relative_url}}#{{ my_page.section }}">{{ my_page.title | escape }}</a>
               {% endif %}
             {% endif %}
           {% endif %}
         {% endfor %}
+        <a class="page-link" href="https://open-education.signup.team/">Join</a>
 
         <span class="page-link">
           <a href="{{relative_url}}/open-education/">NL</a>

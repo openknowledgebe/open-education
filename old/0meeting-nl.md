@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Uitnodiging
 section: meeting
 order: 30
 style: page-doel
